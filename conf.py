@@ -7,10 +7,10 @@ language = 'en'
 
 # html_static_path = ['_static']
 
-project = 'Tldraw Examples'
+project = 'Ipyreact Examples'
 # copyright = ''
 # author = ''
-html_title = "Tldraw Examples"
+html_title = "Ipyreact Examples"
 
 # specify project details
 master_doc = "index"

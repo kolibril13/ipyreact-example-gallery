@@ -1,4 +1,4 @@
-# Sharing Tldraw Example code.
+# Ipyreact Example code.
 
 Hello World! 
 
@@ -11,7 +11,7 @@ Content:
 ```
 
 Repository on GitHub:  
-<https://github.com/Octoframes/tldraw-example-gallery>
+<https://github.com/kolibril13/ipyreact-example-gallery>
 
 
 
