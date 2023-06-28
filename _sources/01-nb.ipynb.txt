@@ -99,7 +99,6 @@
    "source": [
     "import ipyreact\n",
     "\n",
-    "# from https://www.npmjs.com/package/world-daylight-map\n",
     "\n",
     "from traitlets import Bool,Unicode, signature_has_traits\n",
     "\n",
@@ -303,6 +302,9 @@
    ],
    "source": [
     "%%react\n",
+    "\n",
+    "# from https://www.npmjs.com/package/world-daylight-map\n",
+    "\n",
     "import * as React from 'react';\n",
     "import * as ReactDOM from 'react-dom';\n",
     "import { WorldDaylightMap } from 'world-daylight-map';\n",
