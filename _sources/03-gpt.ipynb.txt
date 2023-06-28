@@ -1,74 +1,59 @@
 {
  "cells": [
   {
+   "attachments": {},
    "cell_type": "markdown",
    "id": "c98a37c3",
    "metadata": {},
    "source": [
-    "# Anywidget\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "id": "eee5019a",
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "application/vnd.jupyter.widget-view+json": {
-       "model_id": "dbc923e23fd74ca4a2dfa83b67c93ced",
-       "version_major": 2,
-       "version_minor": 0
-      },
-      "text/plain": [
-       "CounterWidget(count=42)"
-      ]
-     },
-     "execution_count": 1,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "import anywidget\n",
-    "import traitlets\n",
+    "# GPT prompt\n",
+    "\n",
+    "Here is the promt that can be pastes to [ChatGPT](https://chat.openai.com/) in order to convert a react component into a Ipyreact Jupyter Widget\n",
+    "````\n",
+    "\n",
+    "This is a react component:\n",
+    "```\n",
+    "import * as React from \"react\";\n",
+    "\n",
+    "export default function MyButton() {\n",
+    "    return ( < button > X < /button>);\n",
+    "}\n",
+    "```\n",
     "\n",
     "\n",
-    "class CounterWidget(anywidget.AnyWidget):\n",
+    "This component can be converted into a widget with the following code:\n",
+    "```\n",
+    "import ipyreact\n",
+    "from traitlets import Unicode\n",
+    "class MyExampleWidget(ipyreact.ReactWidget):\n",
+    "    my_message = Unicode(\"Hi There\").tag(sync=True)\n",
     "    _esm = \"\"\"\n",
-    "    export function render(view) {\n",
-    "      let getCount = () => view.model.get(\"count\");\n",
-    "      let button = document.createElement(\"button\");\n",
-    "      button.classList.add(\"counter-button\");\n",
-    "      button.innerHTML = `count is ${getCount()}`;\n",
-    "      button.addEventListener(\"click\", () => {\n",
-    "        view.model.set(\"count\", getCount() + 1);\n",
-    "        view.model.save_changes();\n",
-    "      });\n",
-    "      view.model.on(\"change:count\", () => {\n",
-    "        button.innerHTML = `count is ${getCount()}`;\n",
-    "      });\n",
-    "      view.el.appendChild(button);\n",
-    "    }\n",
-    "    \"\"\"\n",
-    "    _css=\"\"\"\n",
-    "    .counter-button { background-color: #ea580c; }\n",
-    "    .counter-button:hover { background-color: #9a3412; }\n",
-    "    \"\"\"\n",
-    "    count = traitlets.Int(0).tag(sync=True)\n",
+    "    import * as React from \"react\";\n",
     "\n",
-    "counter = CounterWidget()\n",
-    "counter.count = 42\n",
-    "counter"
+    "    export default function MyButton({ my_message }) {\n",
+    "    return <button> {my_message} </button>;\n",
+    "    };\"\"\"\n",
+    "MyExampleWidget()\n",
+    "```\n",
+    "\n",
+    "\n",
+    "Now, convert this component into a widget:\n",
+    "```\n",
+    "import React from \"react\";\n",
+    "import QRCode from \"react-qr-code\";\n",
+    "\n",
+    "export default function App() {\n",
+    "  return <QRCode value=\"hello world\" />;\n",
+    "}\n",
+    "```\n",
+    "````"
    ]
   },
   {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "6f3ba882",
+   "attachments": {},
+   "cell_type": "markdown",
+   "id": "b78e587e",
    "metadata": {},
-   "outputs": [],
    "source": []
   }
  ],
@@ -378,12 +363,6 @@
       "model_name": "LayoutModel",
       "state": {}
      },
-     "a7b1e370c0424669a6000d6b72719fe9": {
-      "model_module": "@jupyter-widgets/base",
-      "model_module_version": "2.0.0",
-      "model_name": "LayoutModel",
-      "state": {}
-     },
      "a83d8081c0f34397a15dfc8c70913ef8": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
@@ -429,24 +408,6 @@
        "layout": "IPY_MODEL_ca204718fa96474980b97bbec65b3eb1",
        "name": null,
        "react_version": 18
-      }
-     },
-     "dbc923e23fd74ca4a2dfa83b67c93ced": {
-      "model_module": "anywidget",
-      "model_module_version": "0.6.0",
-      "model_name": "AnyModel",
-      "state": {
-       "_anywidget_id": "__main__.CounterWidget",
-       "_css": "\n    .counter-button { background-color: #ea580c; }\n    .counter-button:hover { background-color: #9a3412; }\n    ",
-       "_esm": "\n    export function render(view) {\n      let getCount = () => view.model.get(\"count\");\n      let button = document.createElement(\"button\");\n      button.classList.add(\"counter-button\");\n      button.innerHTML = `count is ${getCount()}`;\n      button.addEventListener(\"click\", () => {\n        view.model.set(\"count\", getCount() + 1);\n        view.model.save_changes();\n      });\n      view.model.on(\"change:count\", () => {\n        button.innerHTML = `count is ${getCount()}`;\n      });\n      view.el.appendChild(button);\n    }\n    ",
-       "_model_module": "anywidget",
-       "_model_module_version": "0.6.0",
-       "_model_name": "AnyModel",
-       "_view_module": "anywidget",
-       "_view_module_version": "0.6.0",
-       "_view_name": "AnyView",
-       "count": 42,
-       "layout": "IPY_MODEL_a7b1e370c0424669a6000d6b72719fe9"
       }
      },
      "eb52f49a6d404f5ca4a96fd9287dbf41": {
