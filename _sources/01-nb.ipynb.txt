@@ -1,7 +1,6 @@
 {
  "cells": [
   {
-   "attachments": {},
    "cell_type": "markdown",
    "id": "307aedfb",
    "metadata": {},
@@ -12,7 +11,6 @@
    ]
   },
   {
-   "attachments": {},
    "cell_type": "markdown",
    "id": "2b6db3c8",
    "metadata": {},
@@ -29,7 +27,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "f652116798e5495b90cfd1c95dfb471c",
+       "model_id": "174e01c40bd841deb67f3295b3916cd1",
        "version_major": 2,
        "version_minor": 0
       },
@@ -62,7 +60,6 @@
    ]
   },
   {
-   "attachments": {},
    "cell_type": "markdown",
    "id": "a1d92f97",
    "metadata": {},
@@ -83,7 +80,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "8cdfec8abc5245d1b8cf65c5988980c3",
+       "model_id": "3292c600fd084ed980944525e01a6c69",
        "version_major": 2,
        "version_minor": 0
       },
@@ -133,7 +130,6 @@
    ]
   },
   {
-   "attachments": {},
    "cell_type": "markdown",
    "id": "205a2925",
    "metadata": {},
@@ -154,7 +150,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "9458fd16293141ffb311ab8d67976ec6",
+       "model_id": "761024790d664144bb80c67083ba6bcd",
        "version_major": 2,
        "version_minor": 0
       },
@@ -205,7 +201,6 @@
    ]
   },
   {
-   "attachments": {},
    "cell_type": "markdown",
    "id": "b387f39e",
    "metadata": {},
@@ -237,7 +232,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "1e3bb627ddb2445f8f506fcad0a7e2c4",
+       "model_id": "dc7d0926f02a447faaa574ba7ec4ec55",
        "version_major": 2,
        "version_minor": 0
       },
@@ -267,7 +262,6 @@
    ]
   },
   {
-   "attachments": {},
    "cell_type": "markdown",
    "id": "a081a879",
    "metadata": {},
@@ -288,7 +282,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "1f046e7a6dff40adbd01eda44a0fb3fa",
+       "model_id": "b34918c06a124016b0acd1c9b32769c5",
        "version_major": 2,
        "version_minor": 0
       },
@@ -303,7 +297,7 @@
    "source": [
     "%%react\n",
     "\n",
-    "# from https://www.npmjs.com/package/world-daylight-map\n",
+    "// from https://www.npmjs.com/package/world-daylight-map\n",
     "\n",
     "import * as React from 'react';\n",
     "import * as ReactDOM from 'react-dom';\n",
@@ -319,7 +313,6 @@
    ]
   },
   {
-   "attachments": {},
    "cell_type": "markdown",
    "id": "17d787eb",
    "metadata": {},
@@ -340,7 +333,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "54d8bd53b707433e8c9ceab681e84b94",
+       "model_id": "4854fc6623c84b59ad7deddeb06b165b",
        "version_major": 2,
        "version_minor": 0
       },
@@ -375,7 +368,6 @@
    ]
   },
   {
-   "attachments": {},
    "cell_type": "markdown",
    "id": "474125a0",
    "metadata": {},
@@ -396,7 +388,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "ffa457695e43498d8bca6b281c5000aa",
+       "model_id": "6e00763dc44642d9aaea558e634d1e34",
        "version_major": 2,
        "version_minor": 0
       },
@@ -430,7 +422,6 @@
    ]
   },
   {
-   "attachments": {},
    "cell_type": "markdown",
    "id": "c40ff713",
    "metadata": {},
@@ -451,7 +442,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "0ca973a19e66465393d9ec3955a4d5dc",
+       "model_id": "5f65c4ac28ed4eef886b87a890ffc7c7",
        "version_major": 2,
        "version_minor": 0
       },
@@ -496,7 +487,6 @@
    ]
   },
   {
-   "attachments": {},
    "cell_type": "markdown",
    "id": "7aa71365",
    "metadata": {},
@@ -517,7 +507,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "f434591932884e998d0a55edc2a0add8",
+       "model_id": "b18f9f9d419d45ce8da454cf84844889",
        "version_major": 2,
        "version_minor": 0
       },
@@ -548,7 +538,6 @@
    ]
   },
   {
-   "attachments": {},
    "cell_type": "markdown",
    "id": "d107469b",
    "metadata": {},
@@ -597,7 +586,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "93f6635f52a94f4bb2f1d9a104be9dd4",
+       "model_id": "efbc0491108649ff9c9c6833bd68c5e4",
        "version_major": 2,
        "version_minor": 0
       },
@@ -783,6 +772,12 @@
       "model_name": "LayoutModel",
       "state": {}
      },
+     "0c9d906f24194c6d8e6731bb3e8669d5": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
      "0ca973a19e66465393d9ec3955a4d5dc": {
       "model_module": "@widgetti/jupyter-react",
       "model_module_version": "^0.3.0",
@@ -806,6 +801,12 @@
        "name": null,
        "react_version": 18
       }
+     },
+     "0d4d93d944a5438ba918577f74733ab0": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
      },
      "106713aeeecd44a29e3718cbb08ec49b": {
       "model_module": "@widgetti/jupyter-react",
@@ -851,6 +852,37 @@
        "_view_module_version": "^0.3.0",
        "debug": false,
        "layout": "IPY_MODEL_f4103de634fc4cf288d7f3fe7d5b5ffa",
+       "name": null,
+       "react_version": 18
+      }
+     },
+     "12dda3be14bc413ab7defa5d0c058369": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
+     "174e01c40bd841deb67f3295b3916cd1": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "__main__.QRCodeWidget",
+       "_esm": "\n    import React from \"react\";\n    import QRCode from \"react-qr-code\";\n\n    export default function App({ content }) {\n      return <QRCode value={content} />\n    }\n    ",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "content": "Hello World",
+       "debug": false,
+       "layout": "IPY_MODEL_d93c7f83da864a0dba31b006f4ebe766",
        "name": null,
        "react_version": 18
       }
@@ -1153,6 +1185,77 @@
        "show_month": true
       }
      },
+     "3292c600fd084ed980944525e01a6c69": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "__main__.DiffViewerWidget",
+       "_esm": "\n    import React from 'react';\n    import ReactDiffViewer from 'react-diff-viewer';\n\n    export default function App({ code_a, code_b, split_view }) {\n        return (\n            <div\n                style={{\n                    position: \"relative\",\n                    width: \"500px\",\n                }}\n            >\n                <ReactDiffViewer oldValue={code_a} newValue={code_b} splitView={split_view} />\n            </div>\n        );\n    }\n    ",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "code_a": "Cats purr gently",
+       "code_b": "Cats meow softly",
+       "debug": false,
+       "layout": "IPY_MODEL_12dda3be14bc413ab7defa5d0c058369",
+       "name": null,
+       "react_version": 18,
+       "split_view": true
+      }
+     },
+     "33ae9919f52e4040880eabb3973fea5d": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "__main__.ActivityCalendarWidget",
+       "_esm": "\n    import React from 'react'\n    import { ActivityCalendar } from 'activity-calendar-react'\n\n    const colorCustomization = {\n    activity0: '#dadada',\n    activity1: '#0e4429',\n    activity2: '#006d32',\n    activity3: '#26a641',\n    activity4: '#39d353',\n    }\n\n    export default function App({ sample_data, color_customization, show_month }) {\n    \n      return (\n        <div className=\"App\">\n          <ActivityCalendar  sampleData = {sample_data}  colorCustomization = {colorCustomization} showMonth={show_month}/>\n        </div>\n      );\n    }\n    ",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "color_customization": {},
+       "debug": false,
+       "layout": "IPY_MODEL_0c9d906f24194c6d8e6731bb3e8669d5",
+       "name": null,
+       "react_version": 18,
+       "sample_data": [
+        {
+         "activity": 4,
+         "day": "2023-01-01"
+        },
+        {
+         "activity": 3,
+         "day": "2023-02-01"
+        },
+        {
+         "activity": 2,
+         "day": "2023-03-01"
+        },
+        {
+         "activity": 1,
+         "day": "2023-01-02"
+        }
+       ],
+       "show_month": true
+      }
+     },
      "34522dc574f54261a4bb72b2a0da5ce9": {
       "model_module": "@widgetti/jupyter-react",
       "model_module_version": "^0.3.0",
@@ -1324,11 +1427,65 @@
       "model_name": "LayoutModel",
       "state": {}
      },
+     "4854fc6623c84b59ad7deddeb06b165b": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "ipyreact.cellmagic.Widget",
+       "_esm": "import React from 'react';\nimport { useTimer } from 'use-timer';\n\nexport default function App() {\n  const { time, start, pause, reset, status } = useTimer();\n\n  return (\n    <>\n      <div>\n        <button onClick={start}>Start</button>\n        <button onClick={pause}>Pause</button>\n        <button onClick={reset}>Reset</button>\n      </div>\n      <p>Elapsed time: {time}</p>\n      {status === 'RUNNING' && <p>Running...</p>}\n    </>\n  );\n};\n",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "debug": false,
+       "layout": "IPY_MODEL_c77c6f95a46140dc91d6213d52f16410",
+       "name": null,
+       "react_version": 18
+      }
+     },
      "491efe5a95fc410e89c08d16efab85b5": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "model_name": "LayoutModel",
       "state": {}
+     },
+     "49eb0f2823874094bb58db07c588b747": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
+     "4a53afd7b1a742cb98c07185e7cfb27b": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "ipyreact.cellmagic.Widget",
+       "_esm": "import React from 'react';\nimport { useTimer } from 'use-timer';\n\nexport default function App() {\n  const { time, start, pause, reset, status } = useTimer();\n\n  return (\n    <>\n      <div>\n        <button onClick={start}>Start</button>\n        <button onClick={pause}>Pause</button>\n        <button onClick={reset}>Reset</button>\n      </div>\n      <p>Elapsed time: {time}</p>\n      {status === 'RUNNING' && <p>Running...</p>}\n    </>\n  );\n};\n",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "debug": false,
+       "layout": "IPY_MODEL_e9ac6d0b7c194948a4a72d6ec6d77a8f",
+       "name": null,
+       "react_version": 18
+      }
      },
      "5114706f77c743419656eae3f6e18474": {
       "model_module": "@widgetti/jupyter-react",
@@ -1353,6 +1510,12 @@
        "name": null,
        "react_version": 18
       }
+     },
+     "525bda185a404f64a0da71e54115f175": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
      },
      "54d8bd53b707433e8c9ceab681e84b94": {
       "model_module": "@widgetti/jupyter-react",
@@ -1420,6 +1583,30 @@
        "react_version": 18
       }
      },
+     "5f65c4ac28ed4eef886b87a890ffc7c7": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "ipyreact.cellmagic.Widget",
+       "_esm": "import React from \"react\";\n\nimport { Highlighter } from \"rc-highlight\";\n\nconst App = (props) => {\n  return (\n    <div\n      style={{\n        position: \"relative\",\n        width: \"500px\",\n      }}\n    >\n      <Highlighter\n      //code={makeCode}\n      //style={{ margin: \"2px\" }}\n      >\n        {makeCode}\n      </Highlighter>\n    </div>\n  );\n};\nexport default App;\n\nconst makeCode = `\nprint(\"hello world\")\nfor i in range(0, 10):\n    print(i)\n`;\n",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "debug": false,
+       "layout": "IPY_MODEL_f37232aedb63428cbb3e4d071e1f1fae",
+       "name": null,
+       "react_version": 18
+      }
+     },
      "5fbcb9805ecd46c0afc6bc43e149c2ce": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
@@ -1444,17 +1631,77 @@
       "model_name": "LayoutModel",
       "state": {}
      },
+     "6b6ab36524e84a13b828a4e3760e3918": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
+     "6d3c0cfcd44b493294b974c76f75282b": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
      "6db20f5249734c3bb7e22042b6dc9f34": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "model_name": "LayoutModel",
       "state": {}
      },
+     "6e00763dc44642d9aaea558e634d1e34": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "ipyreact.cellmagic.Widget",
+       "_esm": "import * as React from \"react\";\nimport { Tldraw } from \"@tldraw/tldraw\";\n\nexport default function App() {\n  return (\n    <div\n      style={{\n        position: \"relative\",\n        width: \"600px\",\n        height: \"250px\",\n      }}\n    >\n      <Tldraw />\n    </div>\n  );\n}\n",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "debug": false,
+       "layout": "IPY_MODEL_88cfee5ad784445f9a98234138ea330a",
+       "name": null,
+       "react_version": 18
+      }
+     },
      "6ed69b2f0a094ba894acecbbeeec9673": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "model_name": "LayoutModel",
       "state": {}
+     },
+     "7069bc6a640c44e0b6bedea5f7bed2be": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "ipyreact.cellmagic.Widget",
+       "_esm": "// from https://www.npmjs.com/package/world-daylight-map\n\nimport * as React from 'react';\nimport * as ReactDOM from 'react-dom';\nimport { WorldDaylightMap } from 'world-daylight-map';\n\nexport default function App() {\n  return (\n    <div style={{ width: '100%', height: '400px' }}>\n      <WorldDaylightMap />\n    </div>\n  );\n};\n",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "debug": false,
+       "layout": "IPY_MODEL_fda5118879ef4a02a01ea9fe5dc71abd",
+       "name": null,
+       "react_version": 18
+      }
      },
      "7156eca091d44343a3aa0e39e2fab529": {
       "model_module": "@widgetti/jupyter-react",
@@ -1483,7 +1730,82 @@
        "split_view": true
       }
      },
+     "73a51a14250a4177bad06b16af849ab9": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "__main__.QRCodeWidget",
+       "_esm": "\n    import React from \"react\";\n    import QRCode from \"react-qr-code\";\n\n    export default function App({ content }) {\n      return <QRCode value={content} />\n    }\n    ",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "content": "Hello World",
+       "debug": false,
+       "layout": "IPY_MODEL_6b6ab36524e84a13b828a4e3760e3918",
+       "name": null,
+       "react_version": 18
+      }
+     },
      "74299c5f82bf4a90ade17fd954ff4306": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
+     "761024790d664144bb80c67083ba6bcd": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "__main__.ActivityCalendarWidget",
+       "_esm": "\n    import React from 'react'\n    import { ActivityCalendar } from 'activity-calendar-react'\n\n    const colorCustomization = {\n    activity0: '#dadada',\n    activity1: '#0e4429',\n    activity2: '#006d32',\n    activity3: '#26a641',\n    activity4: '#39d353',\n    }\n\n    export default function App({ sample_data, color_customization, show_month }) {\n    \n      return (\n        <div className=\"App\">\n          <ActivityCalendar  sampleData = {sample_data}  colorCustomization = {colorCustomization} showMonth={show_month}/>\n        </div>\n      );\n    }\n    ",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "color_customization": {},
+       "debug": false,
+       "layout": "IPY_MODEL_f3a2ed373a9b469bb6f9da21a98b1df7",
+       "name": null,
+       "react_version": 18,
+       "sample_data": [
+        {
+         "activity": 4,
+         "day": "2023-01-01"
+        },
+        {
+         "activity": 3,
+         "day": "2023-02-01"
+        },
+        {
+         "activity": 2,
+         "day": "2023-03-01"
+        },
+        {
+         "activity": 1,
+         "day": "2023-01-02"
+        }
+       ],
+       "show_month": true
+      }
+     },
+     "78012a57fc164836b64c04726178f838": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "model_name": "LayoutModel",
@@ -1524,6 +1846,30 @@
       "model_module_version": "2.0.0",
       "model_name": "LayoutModel",
       "state": {}
+     },
+     "7b75fce487fc4674a8bd7e23c60d4b1f": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "ipyreact.cellmagic.Widget",
+       "_esm": "# from https://www.npmjs.com/package/world-daylight-map\n\nimport * as React from 'react';\nimport * as ReactDOM from 'react-dom';\nimport { WorldDaylightMap } from 'world-daylight-map';\n\nexport default function App() {\n  return (\n    <div style={{ width: '100%', height: '400px' }}>\n      <WorldDaylightMap />\n    </div>\n  );\n};\n",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "debug": false,
+       "layout": "IPY_MODEL_866c321b337849e9bea797a8dbbc6ba6",
+       "name": null,
+       "react_version": 18
+      }
      },
      "7e6c4861f81c42a89896803690b7ec03": {
       "model_module": "@widgetti/jupyter-react",
@@ -1593,6 +1939,45 @@
       }
      },
      "84e9f33ec8344268b02954087d24b72d": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
+     "860a2a962b0d40119d0e9e07bb24a36b": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "__main__.DiffViewerWidget",
+       "_esm": "\n    import React from 'react';\n    import ReactDiffViewer from 'react-diff-viewer';\n\n    export default function App({ code_a, code_b, split_view }) {\n        return (\n            <div\n                style={{\n                    position: \"relative\",\n                    width: \"500px\",\n                }}\n            >\n                <ReactDiffViewer oldValue={code_a} newValue={code_b} splitView={split_view} />\n            </div>\n        );\n    }\n    ",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "code_a": "Cats purr gently",
+       "code_b": "Cats meow softly",
+       "debug": false,
+       "layout": "IPY_MODEL_49eb0f2823874094bb58db07c588b747",
+       "name": null,
+       "react_version": 18,
+       "split_view": true
+      }
+     },
+     "866c321b337849e9bea797a8dbbc6ba6": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
+     "88cfee5ad784445f9a98234138ea330a": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "model_name": "LayoutModel",
@@ -1915,6 +2300,54 @@
       "model_name": "LayoutModel",
       "state": {}
      },
+     "b18f9f9d419d45ce8da454cf84844889": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "ipyreact.cellmagic.Widget",
+       "_esm": "import React from 'react';\nimport GuitarChord from 'react-guitar-chords';\n\nconst App = () => {\n  return (\n    <GuitarChord\n      chordName='C major'\n      frets={['x', 3, 2, 0, 1, 0]}\n    />\n  );\n  }\n\nexport default App;\n",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "debug": false,
+       "layout": "IPY_MODEL_6d3c0cfcd44b493294b974c76f75282b",
+       "name": null,
+       "react_version": 18
+      }
+     },
+     "b34918c06a124016b0acd1c9b32769c5": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "ipyreact.cellmagic.Widget",
+       "_esm": "// from https://www.npmjs.com/package/world-daylight-map\n\nimport * as React from 'react';\nimport * as ReactDOM from 'react-dom';\nimport { WorldDaylightMap } from 'world-daylight-map';\n\nexport default function App() {\n  return (\n    <div style={{ width: '100%', height: '400px' }}>\n      <WorldDaylightMap />\n    </div>\n  );\n};\n",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "debug": false,
+       "layout": "IPY_MODEL_b93b841fee0240e09463bcc5f8d29ab0",
+       "name": null,
+       "react_version": 18
+      }
+     },
      "b609faa807f046d09cf63257f5072ad5": {
       "model_module": "@widgetti/jupyter-react",
       "model_module_version": "^0.3.0",
@@ -1987,6 +2420,12 @@
        "name": null,
        "react_version": 18
       }
+     },
+     "b93b841fee0240e09463bcc5f8d29ab0": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
      },
      "ba2b4650533f46eda14559db93109b2d": {
       "model_module": "@widgetti/jupyter-react",
@@ -2117,7 +2556,37 @@
        "react_version": 18
       }
      },
+     "c664bd075929413fa8907163665d2493": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "ipyreact.cellmagic.Widget",
+       "_esm": "import * as React from \"react\";\nimport { Tldraw } from \"@tldraw/tldraw\";\n\nexport default function App() {\n  return (\n    <div\n      style={{\n        position: \"relative\",\n        width: \"600px\",\n        height: \"250px\",\n      }}\n    >\n      <Tldraw />\n    </div>\n  );\n}\n",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "debug": false,
+       "layout": "IPY_MODEL_78012a57fc164836b64c04726178f838",
+       "name": null,
+       "react_version": 18
+      }
+     },
      "c69de3045a8c4089be8f857db41b7ade": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
+     "c77c6f95a46140dc91d6213d52f16410": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "model_name": "LayoutModel",
@@ -2238,6 +2707,60 @@
        "react_version": 18
       }
      },
+     "d5e0c2ffb8b8425a8e2e5a1340886be4": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "ipyreact.cellmagic.Widget",
+       "_esm": "import * as React from 'react';\nimport Stack from '@mui/material/Stack';\nimport Button from '@mui/material/Button';\n\nexport default function BasicButtons() {\n  return (\n    <Stack spacing={2} direction=\"row\">\n      <Button variant=\"text\">Text</Button>\n      <Button variant=\"contained\">Contained</Button>\n      <Button variant=\"outlined\">Outlined</Button>\n    </Stack>\n  );\n}\n",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "debug": false,
+       "layout": "IPY_MODEL_0d4d93d944a5438ba918577f74733ab0",
+       "name": null,
+       "react_version": 18
+      }
+     },
+     "d93c7f83da864a0dba31b006f4ebe766": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
+     "dc7d0926f02a447faaa574ba7ec4ec55": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "ipyreact.cellmagic.Widget",
+       "_esm": "import * as React from 'react';\nimport Stack from '@mui/material/Stack';\nimport Button from '@mui/material/Button';\n\nexport default function BasicButtons() {\n  return (\n    <Stack spacing={2} direction=\"row\">\n      <Button variant=\"text\">Text</Button>\n      <Button variant=\"contained\">Contained</Button>\n      <Button variant=\"outlined\">Outlined</Button>\n    </Stack>\n  );\n}\n",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "debug": false,
+       "layout": "IPY_MODEL_525bda185a404f64a0da71e54115f175",
+       "name": null,
+       "react_version": 18
+      }
+     },
      "deb6776f69ab40ff87f66a9c06d94d62": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
@@ -2328,6 +2851,12 @@
        "react_version": 18
       }
      },
+     "e9ac6d0b7c194948a4a72d6ec6d77a8f": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
      "ec7ba867f44548cfab70a1d111909e1b": {
       "model_module": "@widgetti/jupyter-react",
       "model_module_version": "^0.3.0",
@@ -2396,6 +2925,30 @@
        "_view_module_version": "^0.3.0",
        "debug": false,
        "layout": "IPY_MODEL_7a38fa2e6a9d4af3bc941e90893d422a",
+       "name": null,
+       "react_version": 18
+      }
+     },
+     "efbc0491108649ff9c9c6833bd68c5e4": {
+      "model_module": "@widgetti/jupyter-react",
+      "model_module_version": "^0.3.0",
+      "model_name": "ReactModel",
+      "state": {
+       "_anywidget_id": "ipyreact.cellmagic.Widget",
+       "_esm": "import * as React from 'react';\nimport {Mafs,Point, Circle, Plot,Theme, Coordinates, useMovablePoint, vec } from \"mafs\"\n\nexport default function HelloFx({my_count}) {\nconst sigmoid1 = (x: number) => my_count *0.1* 2 / (1 + Math.exp(-x)) - 1\nreturn (\n    <Mafs>\n    <Coordinates.Cartesian />\n    <Plot.OfX y={Math.sin} color={Theme.blue} />\n    <Plot.OfY x={sigmoid1} color={Theme.pink} />\n    </Mafs>\n)\n\n}\n",
+       "_event_names": [],
+       "_import_map": {
+        "imports": {
+         "@mui/icons-material/": "https://esm.sh/@mui/icons-material/",
+         "@mui/material/": "https://esm.sh/@mui/material@5.11.10/",
+         "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0"
+        },
+        "scopes": {}
+       },
+       "_model_module_version": "^0.3.0",
+       "_view_module_version": "^0.3.0",
+       "debug": false,
+       "layout": "IPY_MODEL_f96144cb45784b988c3c145adb349458",
        "name": null,
        "react_version": 18
       }
@@ -2498,6 +3051,18 @@
       "model_name": "LayoutModel",
       "state": {}
      },
+     "f37232aedb63428cbb3e4d071e1f1fae": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
+     "f3a2ed373a9b469bb6f9da21a98b1df7": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
      "f4103de634fc4cf288d7f3fe7d5b5ffa": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
@@ -2553,6 +3118,12 @@
        "react_version": 18
       }
      },
+     "f96144cb45784b988c3c145adb349458": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
      "f9c52f42641e48368b8e81793a874cd0": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
@@ -2584,6 +3155,12 @@
       }
      },
      "fc35f8b4758642f69603f1d00fb3ef2f": {
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "model_name": "LayoutModel",
+      "state": {}
+     },
+     "fda5118879ef4a02a01ea9fe5dc71abd": {
       "model_module": "@jupyter-widgets/base",
       "model_module_version": "2.0.0",
       "model_name": "LayoutModel",
