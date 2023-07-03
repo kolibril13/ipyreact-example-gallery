@@ -9,7 +9,7 @@ Content:
 01-nb
 02-nb
 03-gpt
-04-nb
+04-nb-slider
 ```
 
 Repository on GitHub:  
