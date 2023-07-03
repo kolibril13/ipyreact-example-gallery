@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Ipyreact Gallery" href="01-nb.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="prev" title="GPT prompt" href="03-gpt.html" />
 
     <link rel="shortcut icon" href="_static/favicon.ico"/><!-- Generated with Sphinx 5.3.0 and Furo 2023.03.27 -->
-        <title>Ipyreact Examples</title>
+        <title>Testing slider - Ipyreact Examples</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=fad236701ea90a88636c2a8c73b44ae642ed2a53" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
@@ -125,7 +125,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="#"><div class="brand">Ipyreact Examples</div></a>
+      <a href="index.html"><div class="brand">Ipyreact Examples</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -145,7 +145,7 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><a class="sidebar-brand" href="#">
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
   
   
   <span class="sidebar-brand-text">Ipyreact Examples</span>
@@ -156,11 +156,11 @@
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <ul>
+  <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="01-nb.html">Ipyreact Gallery</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02-nb.html">Anywidget</a></li>
 <li class="toctree-l1"><a class="reference internal" href="03-gpt.html">GPT prompt</a></li>
-<li class="toctree-l1"><a class="reference internal" href="04-nb.html">Testing slider</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Testing slider</a></li>
 </ul>
 
 </div>
@@ -195,32 +195,19 @@
           </label>
         </div>
         <article role="main">
-          <section id="ipyreact-example-code">
-<h1>Ipyreact Example code.<a class="headerlink" href="#ipyreact-example-code" title="Permalink to this heading">#</a></h1>
-<p>Hello World!</p>
-<p>Content:</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="01-nb.html">Ipyreact Gallery</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="01-nb.html#qr-code-widget">QR Code Widget</a></li>
-<li class="toctree-l2"><a class="reference internal" href="01-nb.html#diff-viewer">Diff Viewer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="01-nb.html#activity-calendar">Activity Calendar</a></li>
-<li class="toctree-l2"><a class="reference internal" href="01-nb.html#material-ui">Material UI</a></li>
-<li class="toctree-l2"><a class="reference internal" href="01-nb.html#worlddaylightmap">WorldDaylightMap</a></li>
-<li class="toctree-l2"><a class="reference internal" href="01-nb.html#timer">Timer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="01-nb.html#tldraw-whiteboard">Tldraw whiteboard</a></li>
-<li class="toctree-l2"><a class="reference internal" href="01-nb.html#code-highlighter">Code Highlighter</a></li>
-<li class="toctree-l2"><a class="reference internal" href="01-nb.html#guitar-chord-diagram">Guitar Chord Diagram</a></li>
-<li class="toctree-l2"><a class="reference internal" href="01-nb.html#mafs">Mafs</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="02-nb.html">Anywidget</a></li>
-<li class="toctree-l1"><a class="reference internal" href="03-gpt.html">GPT prompt</a></li>
-<li class="toctree-l1"><a class="reference internal" href="04-nb.html">Testing slider</a></li>
-</ul>
+          <section id="testing-slider">
+<h1>Testing slider<a class="headerlink" href="#testing-slider" title="Permalink to this heading">#</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span>
+
+<span class="n">widgets</span><span class="o">.</span><span class="n">IntSlider</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+</pre></div>
 </div>
-<p>Repository on GitHub:<br />
-<a class="reference external" href="https://github.com/kolibril13/ipyreact-example-gallery">https://github.com/kolibril13/ipyreact-example-gallery</a></p>
+</div>
+<div class="cell_output docutils container">
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "c5e46d531905420281e11eb4de18934e", "version_major": 2, "version_minor": 0}</script></div>
+</div>
 </section>
 
         </article>
@@ -228,16 +215,18 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="01-nb.html">
+          
+          <a class="prev-page" href="03-gpt.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
-                  <span>Next</span>
+                  <span>Previous</span>
                 </div>
-                <div class="title">Ipyreact Gallery</div>
+                
+                <div class="title">GPT prompt</div>
+                
               </div>
-              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          
         </div>
         <div class="bottom-of-page">
           <div class="left-details">
@@ -271,5 +260,8 @@
     <script src="_static/scripts/furo.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
+    <script type="application/vnd.jupyter.widget-state+json">{"state": {"08d60506d7df4710ac846e78f1c15fd4": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "SliderStyleModel", "state": {"description_width": ""}}, "6e57db4f2fe9473e9388c07c2fa6aeb6": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "SliderStyleModel", "state": {"description_width": ""}}, "a638bafe53594717bdb950f0f00d0346": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "IntSliderModel", "state": {"behavior": "drag-tap", "layout": "IPY_MODEL_c3b642e9d77e4983b37564e7fe1a4e62", "style": "IPY_MODEL_6e57db4f2fe9473e9388c07c2fa6aeb6", "value": 7}}, "bea7daed69104246aab8864a03f4b66b": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {}}, "c3b642e9d77e4983b37564e7fe1a4e62": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {}}, "c5e46d531905420281e11eb4de18934e": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "IntSliderModel", "state": {"behavior": "drag-tap", "layout": "IPY_MODEL_bea7daed69104246aab8864a03f4b66b", "style": "IPY_MODEL_df41e08f541b4fd8a0a483fbb56cd4f3", "value": 7}}, "d58ca9a52ab342eb80aa522f7199052e": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {}}, "df41e08f541b4fd8a0a483fbb56cd4f3": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "SliderStyleModel", "state": {"description_width": ""}}, "f37e33f171c045d789a4985eba014995": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "IntSliderModel", "state": {"behavior": "drag-tap", "layout": "IPY_MODEL_d58ca9a52ab342eb80aa522f7199052e", "style": "IPY_MODEL_08d60506d7df4710ac846e78f1c15fd4", "value": 7}}}, "version_major": 2, "version_minor": 0}</script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script crossorigin="anonymous" data-jupyter-widgets-cdn="https://cdn.jsdelivr.net/npm/" src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@1.0.6/dist/embed-amd.js"></script>
     </body>
 </html>
