@@ -13,6 +13,7 @@ Content:
 jupyternotebook
 jupyterlab4
 vscode
+nb6
 ```
 
 Repository on GitHub:  
