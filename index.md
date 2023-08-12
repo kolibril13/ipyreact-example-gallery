@@ -10,7 +10,7 @@ Content:
 02-nb
 03-gpt
 04-nb-mafs
-JupyterNotebook
+jupyternotebook
 jupyterlab4
 vscode
 ```
