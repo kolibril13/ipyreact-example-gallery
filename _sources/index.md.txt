@@ -10,6 +10,9 @@ Content:
 02-nb
 03-gpt
 04-nb-mafs
+JupyterNotebook
+jupyterlab4
+vscode
 ```
 
 Repository on GitHub:  
